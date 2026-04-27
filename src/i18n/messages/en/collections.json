@@ -33,7 +33,7 @@
           "ViT",
           "Representation Learning"
         ],
-        "authors": "**Authors:** **Junjie Wu**, Qilong Wang†, Jiangtao Xie, Pengfei Zhu, Qinghua Hu",
+        "authors": "**Authors:** **Junjie Wu**, [Qilong Wang](https://csqlwang.github.io/homepage/)†, Jiangtao Xie, Pengfei Zhu, Qinghua Hu",
         "links": [
           {
             "type": "Paper",
@@ -54,7 +54,7 @@
           "VLP",
           "Domain Adaptation"
         ],
-        "authors": "**Authors:** **Junjie Wu***, Jiangtao Xie*, Zhaolin Zhang, Qilong Wang†, Qinghua Hu, Peihua Li, Sen Xu",
+        "authors": "**Authors:** **Junjie Wu***, Jiangtao Xie*, Zhaolin Zhang, [Qilong Wang](https://csqlwang.github.io/homepage/)†, Qinghua Hu, Peihua Li, Sen Xu",
         "links": [
           {
             "type": "Paper",
@@ -75,7 +75,7 @@
           "ViT",
           "Token Aggregation"
         ],
-        "authors": "**Authors:** Jiangtao Xie*, Zhaolin Zhang*, Ruiren Zeng*, **Junjie Wu**, Qilong Wang, Peihua Li†",
+        "authors": "**Authors:** Jiangtao Xie*, Zhaolin Zhang*, Ruiren Zeng*, **Junjie Wu**, [Qilong Wang](https://csqlwang.github.io/homepage/), Peihua Li†",
         "links": [],
         "image": "",
         "video": ""
@@ -90,7 +90,7 @@
           "MLLM",
           "Token Compression"
         ],
-        "authors": "**Authors:** Jiangtao Xie*, **Junjie Wu***, Zhaolin Zhang, Qilong Wang, Peihua Li†",
+        "authors": "**Authors:** Jiangtao Xie*, **Junjie Wu***, Zhaolin Zhang, [Qilong Wang](https://csqlwang.github.io/homepage/), Peihua Li†",
         "links": [],
         "image": "",
         "video": ""
@@ -128,7 +128,7 @@
         "logoUrl": "",
         "start": "2023",
         "end": "2026",
-        "description": "Advised by Prof. Qilong Wang. Developed higher-order visual representations for ViTs, domain-specific vision-language pre-training methods, and efficient visual token aggregation/compression methods for ViTs and MLLMs."
+        "description": "Advised by Prof. [Qilong Wang](https://csqlwang.github.io/homepage/). Developed higher-order visual representations for ViTs, domain-specific vision-language pre-training methods, and efficient visual token aggregation/compression methods for ViTs and MLLMs."
       },
       {
         "company": "University of California San Diego (UCSD)",

@@ -21,7 +21,7 @@ export default function Brief({
   className?: string;
   locale?: string;
 }) {
-  // For Chinese locale, display surname first (姓在前)
+  // 中文页面按中文姓名习惯显示姓在前
   const isChinese = locale === "zh";
 
   return (
@@ -44,10 +44,12 @@ export default function Brief({
             name
           )}
         </h1>
-        <p className="text-muted-foreground text-lg">{subtitle}</p>
-        <p className="max-w-[600px] whitespace-pre-line md:text-xl">
-          {description}
-        </p>
+        {subtitle ? <p className="text-muted-foreground text-lg">{subtitle}</p> : null}
+        {description ? (
+          <p className="max-w-[600px] whitespace-pre-line md:text-xl">
+            {description}
+          </p>
+        ) : null}
       </div>
       <Avatar className="size-24 border sm:size-28 md:size-32 lg:size-36">
         <AvatarImage alt={name} src={avatarUrl} />

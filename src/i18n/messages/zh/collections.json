@@ -33,7 +33,7 @@
           "ViT",
           "表征学习"
         ],
-        "authors": "**作者：** **Junjie Wu**, 王旗龙†, Jiangtao Xie, Pengfei Zhu, Qinghua Hu",
+        "authors": "**作者：** **Junjie Wu**, [王旗龙](https://csqlwang.github.io/homepage/)†, Jiangtao Xie, Pengfei Zhu, Qinghua Hu",
         "links": [
           {
             "type": "Paper",
@@ -54,7 +54,7 @@
           "VLP",
           "垂类预训练"
         ],
-        "authors": "**作者：** **Junjie Wu***, Jiangtao Xie*, Zhaolin Zhang, 王旗龙†, Qinghua Hu, Peihua Li, Sen Xu",
+        "authors": "**作者：** **Junjie Wu***, Jiangtao Xie*, Zhaolin Zhang, [王旗龙](https://csqlwang.github.io/homepage/)†, Qinghua Hu, Peihua Li, Sen Xu",
         "links": [
           {
             "type": "Paper",
@@ -75,7 +75,7 @@
           "ViT",
           "Token 聚合"
         ],
-        "authors": "**作者：** Jiangtao Xie*, Zhaolin Zhang*, Ruiren Zeng*, **Junjie Wu**, 王旗龙, Peihua Li†",
+        "authors": "**作者：** Jiangtao Xie*, Zhaolin Zhang*, Ruiren Zeng*, **Junjie Wu**, [王旗龙](https://csqlwang.github.io/homepage/), Peihua Li†",
         "links": [],
         "image": "",
         "video": ""
@@ -90,7 +90,7 @@
           "MLLM",
           "Token 压缩"
         ],
-        "authors": "**作者：** Jiangtao Xie*, **Junjie Wu***, Zhaolin Zhang, 王旗龙, Peihua Li†",
+        "authors": "**作者：** Jiangtao Xie*, **Junjie Wu***, Zhaolin Zhang, [王旗龙](https://csqlwang.github.io/homepage/), Peihua Li†",
         "links": [],
         "image": "",
         "video": ""
@@ -128,7 +128,7 @@
         "logoUrl": "",
         "start": "2023",
         "end": "2026",
-        "description": "导师为王旗龙教授。研究方向包括 ViT 高阶视觉表征、垂类视觉语言预训练，以及面向 ViT 和 MLLM 的高效视觉 token 聚合与压缩。"
+        "description": "导师为[王旗龙](https://csqlwang.github.io/homepage/)教授。研究方向包括 ViT 高阶视觉表征、垂类视觉语言预训练，以及面向 ViT 和 MLLM 的高效视觉 token 聚合与压缩。"
       },
       {
         "company": "加州大学圣地亚哥分校（UCSD）",
