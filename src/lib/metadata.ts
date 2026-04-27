@@ -10,14 +10,6 @@ import {
   LOCALES,
 } from "@/i18n/routing";
 
-function getAtomFeedUrl(locale: Locale): string {
-  const u = new URL("/api/feed/atom.xml", siteConfig.url);
-  if (locale !== DEFAULT_LOCALE) {
-    u.searchParams.set("locale", locale);
-  }
-  return u.toString();
-}
-
 type MetadataProps = {
   title?: string;
   description?: string;
@@ -43,9 +35,8 @@ export async function constructMetadata({
     path === "/" ? pageTitle : `${pageTitle} | ${t("name.full")}`;
   const finalDescription = description || t("headline");
   const canonicalUrl = getLocaleUrl(resolvedLocale, path || "");
-  const atomFeedUrl = getAtomFeedUrl(resolvedLocale);
 
-  // Use availableLocales if provided, otherwise use all locales
+  // 若未指定可用语言，则默认使用全部语言
   const locales = availableLocales || LOCALES;
   const alternateLanguages = locales.reduce(
     (acc, lang) => {
@@ -68,9 +59,6 @@ export async function constructMetadata({
     alternates: {
       canonical: canonicalUrl,
       languages: alternateLanguages,
-      types: {
-        "application/atom+xml": atomFeedUrl,
-      },
     },
     openGraph: {
       type: "website",
@@ -95,7 +83,7 @@ export async function constructMetadata({
         follow: !noIndex,
       },
     },
-    // Next.js metadata route `src/app/manifest.ts` is served at `/manifest.webmanifest`
+    // Next.js metadata route `src/app/manifest.ts` 会输出到 `/manifest.webmanifest`
     manifest: "/manifest.webmanifest",
   };
 }

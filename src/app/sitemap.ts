@@ -6,6 +6,8 @@ import { getBlogPosts } from "@/lib/blog";
 
 const siteUrl = siteConfig.url;
 
+export const dynamic = "force-static";
+
 type ChangeFrequency =
   | "always"
   | "hourly"

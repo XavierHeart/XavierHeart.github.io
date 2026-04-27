@@ -24,16 +24,18 @@ import { DEFAULT_LOCALE, routing } from "@/i18n/routing";
 import { constructMetadata } from "@/lib/metadata";
 import { cn } from "@/lib/utils";
 
-/* Fonts */
 const fontSans = FontSans({
   subsets: ["latin"],
   variable: "--font-sans",
 });
 
-/* Metadata */
 type MetadataProps = {
   params: Promise<{ locale: string }>;
 };
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 export async function generateMetadata({
   params,
@@ -57,7 +59,7 @@ export default async function LocaleLayout({
 }) {
   const { locale } = await params;
 
-  // Validate locale - if invalid, trigger 404
+  // 校验 locale，无效时进入 404
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
@@ -78,7 +80,7 @@ export default async function LocaleLayout({
           fontSans.variable,
         )}
       >
-        {/* Main Layout */}
+        {/* 主页面布局 */}
         <NextIntlClientProvider locale={locale} messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
             <TooltipProvider delayDuration={0}>
@@ -90,7 +92,7 @@ export default async function LocaleLayout({
           </ThemeProvider>
         </NextIntlClientProvider>
 
-        {/* Third-party services */}
+        {/* 第三方服务 */}
         {process.env.NODE_ENV === "development" ? null : (
           <>
             <GoogleTagManager />

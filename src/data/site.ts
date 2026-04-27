@@ -1,12 +1,12 @@
 /**
- * Site configuration
- * Unified configuration for the portfolio website
+ * 站点配置
+ * 统一管理个人主页的全局信息
  */
 
 export const BLUR_FADE_DELAY = 0.05;
 
 export const siteConfig = {
-  url: "https://junjiewu.dev",
+  url: "https://xavierheart.github.io",
   lastUpdated: "2026.04",
   avatarUrl: "/avatar.jpg",
 } as const;

@@ -9,7 +9,6 @@ This repository hosts the source code for Junjie Wu's personal academic website.
 - TypeScript
 - Tailwind CSS
 - next-intl
-- OpenNext Cloudflare adapter
 
 ## Local Development
 
@@ -26,22 +25,19 @@ The development server starts at `http://localhost:3000`.
 npm run build
 ```
 
-## Cloudflare Deployment
+The build command exports a static site to `out/`.
 
-This project is configured for Cloudflare Workers with the OpenNext Cloudflare adapter.
+## GitHub Pages Deployment
+
+This repository is configured for GitHub Pages through GitHub Actions. Pushes to `main` run:
 
 ```bash
-npm run preview
-npm run deploy
+npm ci
+npm run lint
+npm run build
 ```
 
-For Cloudflare dashboard deployment from GitHub, use:
-
-- Build command: `npm run upload`
-- Runtime compatibility flag: `nodejs_compat`
-- Compatibility date: `2024-09-23` or later
-
-The deploy scripts build the OpenNext bundle first and then deploy the generated Worker directly with Wrangler. This avoids Wrangler's automatic framework detection re-entering the OpenNext deploy wrapper in environments where it can fail with `EPIPE`.
+The workflow uploads the generated `out/` directory to GitHub Pages. The default site URL is `https://xavierheart.github.io/`.
 
 ## Project Structure
 
@@ -49,9 +45,5 @@ The deploy scripts build the OpenNext bundle first and then deploy the generated
 - `src/app/[locale]/`: localized page routes and layout
 - `src/data/site.ts`: global site metadata
 - `public/`: static assets, including avatar and resume PDF
-- `open-next.config.ts`: OpenNext Cloudflare adapter config
-- `wrangler.jsonc`: Cloudflare Workers deployment config
-
-## Deployment
-
-The project can be deployed to Cloudflare Workers. After deployment, attach a custom domain in the Cloudflare dashboard.
+- `.github/workflows/deploy-pages.yml`: GitHub Pages deployment workflow
+- `scripts/prepare-github-pages.mjs`: static export preparation script
