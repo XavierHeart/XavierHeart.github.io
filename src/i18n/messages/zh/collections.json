@@ -2,6 +2,11 @@
   "news": {
     "items": [
       {
+        "date": "2026.04",
+        "title": "加入香港科技大学（广州）担任远程科研助理",
+        "content": "与 Yongqi Zhang 教授合作，研究可靠多模态推理与 agentic 图像思维（thinking-with-images）。"
+      },
+      {
         "date": "2026.01",
         "title": "GDT-VLM 被 ICMR 2026 接收",
         "content": "关于高效 MLLM 视觉 token 压缩的全局分布建模工作被 ACM ICMR 2026 接收。"
@@ -94,6 +99,21 @@
         "links": [],
         "image": "",
         "video": ""
+      },
+      {
+        "title": "VIGIL: Causal Visual Evidence for Reliable Multimodal QA",
+        "href": "",
+        "dates": "撰写中，2026",
+        "active": true,
+        "description": "基于结构因果模型与反事实干预的因果视觉证据框架，通过证据充分性门控实现可靠的多模态问答。论文撰写中，arXiv 预印本即将发布。",
+        "technologies": [
+          "MLLM",
+          "幻觉"
+        ],
+        "authors": "**作者：** **Junjie Wu*** 等",
+        "links": [],
+        "image": "",
+        "video": ""
       }
     ]
   },
@@ -120,6 +140,17 @@
   "work": {
     "items": [
       {
+        "company": "香港科技大学（广州）",
+        "href": "https://www.hkust-gz.edu.cn/",
+        "badges": [],
+        "location": "远程",
+        "title": "远程科研助理",
+        "logoUrl": "",
+        "start": "2026.04",
+        "end": "2026.07",
+        "description": "导师为 Yongqi Zhang 教授。研究可靠多模态推理与 agentic 图像思维：提出因果视觉证据框架 VIGIL，用于归因 MLLM 幻觉并实现可靠多模态问答；并为华为 TIR-Bench agentic 图像思维评测构建数据生成、SFT 与评估的闭环管线。"
+      },
+      {
         "company": "天津大学（TJU）",
         "href": "",
         "badges": [],
@@ -135,7 +166,7 @@
         "href": "https://ucsd.edu/",
         "badges": [],
         "location": "美国圣地亚哥",
-        "title": "暑期科研实习生",
+        "title": "远程科研助理",
         "logoUrl": "",
         "start": "2023.06",
         "end": "2023.10",
@@ -150,7 +181,7 @@
         "logoUrl": "",
         "start": "2024.05",
         "end": "至今",
-        "description": "构建面向低资源应用的垂类多模态数据与模型管线，包括数据构造、监督微调、偏好优化、RAG、评估和 vLLM 部署。"
+        "description": "为 Yarnpal 与 Calo 两款 App 从 0 到 1 研发垂类多模态模型，覆盖双源数据平台建设、三阶段训练（领域知识注入、SFT、GRPO）、LLM-as-Judge 评估框架与单卡 vLLM 部署；同时负责多模态 RAG 与 Agent 管线以及植物基础模型建设。"
       }
     ]
   },
@@ -170,7 +201,7 @@
       },
       {
         "year": 2022,
-        "title": "中国国际“互联网+”大学生创新创业大赛银奖"
+        "title": "中国国际“互联网+”大学生创新创业大赛赛区银奖"
       }
     ]
   },
@@ -196,7 +227,7 @@
     },
     "email": {
       "name": "邮箱",
-      "url": "mailto:wjj_@tju.edu.cn",
+      "url": "mailto:heartwu@outlook.com",
       "icon": "email",
       "navbar": false,
       "content": true,

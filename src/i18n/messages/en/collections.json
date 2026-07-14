@@ -2,6 +2,11 @@
   "news": {
     "items": [
       {
+        "date": "2026.04",
+        "title": "Started as a remote research assistant at HKUST (Guangzhou)",
+        "content": "Working with Prof. Yongqi Zhang on reliable multimodal reasoning and agentic thinking-with-images."
+      },
+      {
         "date": "2026.01",
         "title": "GDT-VLM accepted to ICMR 2026",
         "content": "Our work on global distribution modeling for visual token compression in efficient MLLMs was accepted to ACM ICMR 2026."
@@ -94,6 +99,21 @@
         "links": [],
         "image": "",
         "video": ""
+      },
+      {
+        "title": "VIGIL: Causal Visual Evidence for Reliable Multimodal QA",
+        "href": "",
+        "dates": "In preparation, 2026",
+        "active": true,
+        "description": "A causal visual-evidence grounding framework built on structural causal models and counterfactual intervention, with evidence-sufficiency gating for reliable multimodal QA. Manuscript in preparation; arXiv preprint forthcoming.",
+        "technologies": [
+          "MLLM",
+          "Hallucination"
+        ],
+        "authors": "**Authors:** **Junjie Wu*** et al.",
+        "links": [],
+        "image": "",
+        "video": ""
       }
     ]
   },
@@ -120,6 +140,17 @@
   "work": {
     "items": [
       {
+        "company": "The Hong Kong University of Science and Technology (Guangzhou)",
+        "href": "https://www.hkust-gz.edu.cn/",
+        "badges": [],
+        "location": "Remote",
+        "title": "Remote Research Assistant",
+        "logoUrl": "",
+        "start": "Apr. 2026",
+        "end": "Jul. 2026",
+        "description": "Advised by Prof. Yongqi Zhang. Worked on reliable multimodal reasoning and agentic thinking-with-images: proposed VIGIL, a causal visual-evidence grounding framework for attributing MLLM hallucination and enabling reliable multimodal QA, and built a closed-loop data generation, SFT, and evaluation pipeline for the Huawei TIR-Bench agentic thinking-with-images challenge."
+      },
+      {
         "company": "Tianjin University (TJU)",
         "href": "",
         "badges": [],
@@ -135,7 +166,7 @@
         "href": "https://ucsd.edu/",
         "badges": [],
         "location": "San Diego, CA",
-        "title": "Summer Research Intern",
+        "title": "Remote Research Assistant",
         "logoUrl": "",
         "start": "Jun. 2023",
         "end": "Oct. 2023",
@@ -150,7 +181,7 @@
         "logoUrl": "",
         "start": "May 2024",
         "end": "Present",
-        "description": "Built domain-specific multimodal data and model pipelines for low-resource applications, including data construction, supervised fine-tuning, preference optimization, RAG, evaluation, and vLLM deployment."
+        "description": "Built domain-specific multimodal models from scratch for the Yarnpal and Calo apps, covering dual-source data platform construction, three-stage training (domain knowledge injection, SFT, and GRPO), LLM-as-Judge evaluation frameworks, and single-GPU vLLM deployment; also developed multimodal RAG and agent pipelines and plant foundation models."
       }
     ]
   },
@@ -170,7 +201,7 @@
       },
       {
         "year": 2022,
-        "title": "Silver Award, China International Internet+ Innovation and Entrepreneurship Competition"
+        "title": "Regional Silver Award, China International Internet+ Innovation and Entrepreneurship Competition"
       }
     ]
   },
@@ -196,7 +227,7 @@
     },
     "email": {
       "name": "Email",
-      "url": "mailto:wjj_@tju.edu.cn",
+      "url": "mailto:heartwu@outlook.com",
       "icon": "email",
       "navbar": false,
       "content": true,
