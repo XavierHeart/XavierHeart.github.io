@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { getTranslations } from "next-intl/server";
 import type React from "react";
 
@@ -184,8 +185,22 @@ export default async function Page(props: {
           <h2 className="text-xl font-bold">{t("sections.about")}</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <div className="prose text-muted-foreground dark:prose-invert max-w-full font-sans text-sm text-pretty [&_img]:my-0 [&_img]:inline-block [&_img]:h-[1em] [&_img]:w-auto [&_img]:align-baseline">
-            <CustomReactMarkdown>{t("bioMarkdown")}</CustomReactMarkdown>
+          <div className="flex flex-col items-center gap-6 sm:flex-row sm:items-start sm:gap-8">
+            <div className="prose text-muted-foreground dark:prose-invert max-w-full min-w-0 flex-1 font-sans text-sm text-pretty [&_img]:my-0 [&_img]:inline-block [&_img]:h-[1em] [&_img]:w-auto [&_img]:align-baseline">
+              <CustomReactMarkdown>{t("bioMarkdown")}</CustomReactMarkdown>
+            </div>
+            <figure className="w-56 shrink-0 sm:w-44 md:w-52 lg:w-56">
+              <Image
+                src="/grad-photo.jpg"
+                alt={t("aboutPhotoAlt")}
+                width={900}
+                height={1350}
+                className="w-full rounded-2xl border object-cover shadow-sm"
+              />
+              <figcaption className="text-muted-foreground mt-2 text-center text-xs">
+                {t("aboutPhotoCaption")}
+              </figcaption>
+            </figure>
           </div>
         </BlurFade>
       </section>

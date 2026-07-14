@@ -67,7 +67,7 @@
             "icon": "paper"
           }
         ],
-        "image": "",
+        "image": "/pub-dalip.png",
         "video": ""
       },
       {
@@ -123,7 +123,7 @@
         "school": "Tianjin University (TJU)",
         "href": "",
         "degree": "M.Eng. in Electronic Information, GPA: 3.8/4.0",
-        "logoUrl": "",
+        "logoUrl": "/icon/tju.png",
         "start": "2023",
         "end": "2026"
       },
@@ -131,7 +131,7 @@
         "school": "Tianjin University (TJU)",
         "href": "",
         "degree": "B.Eng. in Computer Science and Technology, GPA: 3.7/4.0, top 15%",
-        "logoUrl": "",
+        "logoUrl": "/icon/tju.png",
         "start": "2019",
         "end": "2023"
       }
@@ -145,7 +145,7 @@
         "badges": [],
         "location": "Remote",
         "title": "Remote Research Assistant",
-        "logoUrl": "",
+        "logoUrl": "/icon/hkust-gz.png",
         "start": "Apr. 2026",
         "end": "Jul. 2026",
         "description": "Advised by Prof. Yongqi Zhang. Worked on reliable multimodal reasoning and agentic thinking-with-images: proposed VIGIL, a causal visual-evidence grounding framework for attributing MLLM hallucination and enabling reliable multimodal QA, and built a closed-loop data generation, SFT, and evaluation pipeline for the Huawei TIR-Bench agentic thinking-with-images challenge."
@@ -156,7 +156,7 @@
         "badges": [],
         "location": "Tianjin, China",
         "title": "Graduate Researcher, Machine Learning and Data Mining Laboratory",
-        "logoUrl": "",
+        "logoUrl": "/icon/tju.png",
         "start": "2023",
         "end": "2026",
         "description": "Advised by Prof. [Qilong Wang](https://csqlwang.github.io/homepage/). Developed higher-order visual representations for ViTs, domain-specific vision-language pre-training methods, and efficient visual token aggregation/compression methods for ViTs and MLLMs."
@@ -167,7 +167,7 @@
         "badges": [],
         "location": "San Diego, CA",
         "title": "Remote Research Assistant",
-        "logoUrl": "",
+        "logoUrl": "/icon/ucsd.png",
         "start": "Jun. 2023",
         "end": "Oct. 2023",
         "description": "Collaborated with Prof. Pengtao Xie on foundation models for mRNA gene annotation and chest X-ray representation learning."
