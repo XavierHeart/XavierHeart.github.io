@@ -72,7 +72,7 @@
       },
       {
         "title": "Effective Visual Token Aggregation for Improving ViT Classification",
-        "href": "",
+        "href": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6547399",
         "dates": "IVC 2026",
         "active": true,
         "description": "通过交叉协方差 token pooling 改善 ViT 分类效果的视觉 token 聚合研究。",
@@ -81,7 +81,13 @@
           "Token 聚合"
         ],
         "authors": "**作者：** Jiangtao Xie*, Zhaolin Zhang*, Ruiren Zeng*, **Junjie Wu**, [王旗龙](https://csqlwang.github.io/homepage/), Peihua Li†",
-        "links": [],
+        "links": [
+          {
+            "type": "Paper",
+            "href": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=6547399",
+            "icon": "paper"
+          }
+        ],
         "image": "/pub-ivc.png",
         "video": ""
       },
