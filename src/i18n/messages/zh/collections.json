@@ -2,11 +2,6 @@
   "news": {
     "items": [
       {
-        "date": "2026.08",
-        "title": "VIGIL 与 LiveSearchVQA 正在准备投稿 ICLR 2027",
-        "content": "VIGIL 研究多模态问答对因果视觉证据的依赖，LiveSearchVQA 则为多模态 Web 搜索智能体认证搜索必要性与证据充分性。"
-      },
-      {
         "date": "2026.04",
         "title": "加入香港科技大学（广州）担任远程科研助理",
         "content": "与 Yongqi Zhang 教授合作，研究可靠多模态推理与 agentic 图像思维（thinking-with-images）。"

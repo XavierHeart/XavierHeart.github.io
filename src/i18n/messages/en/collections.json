@@ -2,11 +2,6 @@
   "news": {
     "items": [
       {
-        "date": "2026.08",
-        "title": "VIGIL and LiveSearchVQA in preparation for ICLR 2027",
-        "content": "VIGIL studies causal visual-evidence dependence in multimodal QA, while LiveSearchVQA certifies search necessity and evidence sufficiency for multimodal web-search agents."
-      },
-      {
         "date": "2026.04",
         "title": "Started as a remote research assistant at HKUST (Guangzhou)",
         "content": "Working with Prof. Yongqi Zhang on reliable multimodal reasoning and agentic thinking-with-images."
