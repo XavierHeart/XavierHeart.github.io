@@ -65,13 +65,7 @@ export default function ProjectsSection({
 
   if (!mounted) {
     return (
-      <div
-        className={
-          projects.length === 1
-            ? "mx-auto grid max-w-sm grid-cols-1 gap-3"
-            : "mx-auto grid max-w-6xl grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3"
-        }
-      >
+      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
         {projects.slice(0, displayCount).map((project) => (
           <ProjectCard
             key={project.title}
@@ -91,13 +85,7 @@ export default function ProjectsSection({
   }
 
   return (
-    <div
-      className={
-        projects.length === 1
-          ? "mx-auto grid max-w-sm grid-cols-1 gap-3"
-          : "mx-auto grid max-w-6xl grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3"
-      }
-    >
+    <div className="mx-auto grid max-w-6xl grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3">
       {displayed.map((project) => (
         <ProjectCard
           key={project.title}

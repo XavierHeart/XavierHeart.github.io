@@ -24,25 +24,7 @@
     ]
   },
   "projects": {
-    "items": [
-      {
-        "title": "Real-Time Emotional Avatar Video Generation",
-        "href": "",
-        "dates": "2026 - Present",
-        "active": true,
-        "description": "An AIGC system connecting ASR, a dialogue agent, emotional TTS, and autoregressive audio-driven video, supported by traceable data and evaluation pipelines for lip sync, identity consistency, motion, and visual quality.",
-        "technologies": [
-          "AIGC",
-          "Video Generation",
-          "Audio-Driven Avatar",
-          "Autoregressive Modeling"
-        ],
-        "authors": "",
-        "links": [],
-        "image": "/proj-realtime-avatar.svg",
-        "video": ""
-      }
-    ]
+    "items": []
   },
   "publications": {
     "items": [
