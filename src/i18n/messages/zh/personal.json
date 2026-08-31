@@ -9,10 +9,10 @@
     "headline": "",
     "welcome": "欢迎来到我的主页!",
     "ogImageUrl": "junjiewu.dev/zh",
-    "bioMarkdown": "你好，我是吴俊杰。本科毕业于天津大学计算机科学与技术专业，并取得天津大学电子信息硕士学位，师从[王旗龙](https://csqlwang.github.io/homepage/)教授，所在实验室为机器学习与数据挖掘实验室。\n\n我的研究方向包括**多模态大语言模型**、**视觉表征学习**、**垂类后训练**和**智能体推理**。硕士阶段，我主要研究 Vision Transformer 的高阶视觉表征、垂类视觉语言预训练，以及面向 MLLM 的高效视觉 token 聚合与压缩。在香港科技大学（广州）担任远程科研助理期间，我与 Yongqi Zhang 教授合作，完成了用于因果视觉证据分析的 VIGIL，以及用于认证多模态 Web 搜索智能体搜索必要性的 LiveSearchVQA。\n\n目前已有 ICLR 2025、ICCV 2025 和 ICMR 2026 的第一作者或共同第一作者论文，VIGIL 与 LiveSearchVQA 正在准备投稿 ICLR 2027。现任 Witmani 算法研究员，负责多 Agent 内容生成 Harness 与实时情感虚拟人视频生成；此前在 Glority 研发垂类多模态模型。\n\n除了研究之外，我也热爱探索新潮技术，喜欢关注快速发展的新想法。生活中我也热爱运动，尤其喜欢打篮球（2021-2023 年担任天津大学篮球队队长）和网球。",
+    "bioMarkdown": "你好，我是吴俊杰。本科毕业于天津大学计算机科学与技术专业，并取得天津大学电子信息硕士学位，师从[王旗龙](https://csqlwang.github.io/homepage/)教授，所在实验室为机器学习与数据挖掘实验室。\n\n我的研究方向包括**多模态大语言模型**、**视觉表征学习**、**垂类后训练**、**智能体推理**以及 **AIGC 与实时视频生成**。硕士阶段，我主要研究 Vision Transformer 的高阶视觉表征、垂类视觉语言预训练，以及面向 MLLM 的高效视觉 token 聚合与压缩。在香港科技大学（广州）担任远程科研助理期间，我与 Yongqi Zhang 教授合作，完成了用于因果视觉证据分析的 VIGIL，以及用于认证多模态 Web 搜索智能体搜索必要性的 LiveSearchVQA。\n\n目前已有 ICLR 2025、ICCV 2025 和 ICMR 2026 的第一作者或共同第一作者论文，VIGIL 与 LiveSearchVQA 正在准备投稿 ICLR 2027。现任 Witmani 算法研究员，负责多 Agent 内容生成 Harness 与实时情感虚拟人视频生成；此前在 Glority 研发垂类多模态模型。\n\n除了研究之外，我也热爱探索新潮技术，喜欢关注快速发展的新想法。生活中我也热爱运动，尤其喜欢打篮球（2021-2023 年担任天津大学篮球队队长）和网球。",
     "location": {
         "name": "中国深圳",
         "mapUrl": "https://www.google.com/maps/place/Shenzhen"
     },
-    "blogTagline": "关于多模态学习、视觉表征和垂类智能的笔记。"
+    "blogTagline": "关于多模态学习、智能体系统与生成式视频的笔记。"
 }

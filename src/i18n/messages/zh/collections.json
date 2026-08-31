@@ -24,7 +24,25 @@
     ]
   },
   "projects": {
-    "items": []
+    "items": [
+      {
+        "title": "实时情感虚拟人视频生成",
+        "href": "",
+        "dates": "2026 - 至今",
+        "active": true,
+        "description": "连接 ASR、对话 Agent、情感 TTS 与自回归音频驱动视频的 AIGC 系统，并配套可追溯的数据与评测管线，覆盖口型同步、人物一致性、动作和画面质量。",
+        "technologies": [
+          "AIGC",
+          "视频生成",
+          "音频驱动虚拟人",
+          "自回归建模"
+        ],
+        "authors": "",
+        "links": [],
+        "image": "/proj-realtime-avatar.svg",
+        "video": ""
+      }
+    ]
   },
   "publications": {
     "items": [
