@@ -205,15 +205,10 @@ export default async function Page(props: {
       {/* Projects Section */}
       {projectsItems && projectsItems.length > 0 && (
         <section id="projects">
-          <div className="w-full space-y-12 py-12">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <div className="bg-foreground text-background inline-block rounded-lg px-3 py-1 text-sm">
-                  {t("sections.selectedProjects")}
-                </div>
-                <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  {t("sections.checkOutLatestWork")}
-                </h2>
+          <div className="w-full space-y-6 py-10">
+            <div className="flex items-center justify-center text-center">
+              <div className="bg-foreground text-background inline-block rounded-lg px-3 py-1 text-sm">
+                {t("sections.selectedProjects")}
               </div>
             </div>
             <ProjectsSection
