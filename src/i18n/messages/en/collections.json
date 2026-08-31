@@ -2,6 +2,11 @@
   "news": {
     "items": [
       {
+        "date": "2026.08",
+        "title": "VIGIL and LiveSearchVQA in preparation for ICLR 2027",
+        "content": "VIGIL studies causal visual-evidence dependence in multimodal QA, while LiveSearchVQA certifies search necessity and evidence sufficiency for multimodal web-search agents."
+      },
+      {
         "date": "2026.04",
         "title": "Started as a remote research assistant at HKUST (Guangzhou)",
         "content": "Working with Prof. Yongqi Zhang on reliable multimodal reasoning and agentic thinking-with-images."
@@ -101,18 +106,35 @@
         "video": ""
       },
       {
-        "title": "VIGIL: Causal Visual Evidence for Reliable Multimodal QA",
+        "title": "VIGIL: Causal Visual Evidence for Multimodal Question Answering",
         "href": "",
-        "dates": "In preparation, 2026",
+        "dates": "Targeting ICLR 2027",
         "active": true,
-        "description": "A causal visual-evidence grounding framework built on structural causal models and counterfactual intervention, with evidence-sufficiency gating for reliable multimodal QA. Manuscript in preparation; arXiv preprint forthcoming.",
+        "description": "Defines operation-matched estimands for evidence removal, directed replacement, and context editing, then tests how activation-level localization transfers to parameter adaptation under shared behavioral endpoints.",
         "technologies": [
           "MLLM",
-          "Hallucination"
+          "Causal Intervention",
+          "Visual Grounding"
         ],
         "authors": "**Authors:** **Junjie Wu*** et al.",
         "links": [],
-        "image": "",
+        "image": "/pub-vigil.svg",
+        "video": ""
+      },
+      {
+        "title": "LiveSearchVQA: Certifying Search Necessity for Web-Search Agents",
+        "href": "",
+        "dates": "Targeting ICLR 2027",
+        "active": true,
+        "description": "An on-demand visual QA benchmark built from image-bearing news within 48 hours. Certificate-carrying items verify visual grounding, empirical search necessity, and evidence sufficiency, while a closed-book/with-search/oracle protocol attributes retrieval, distraction, and evidence-utilization failures.",
+        "technologies": [
+          "Web-Search Agents",
+          "Visual QA",
+          "Benchmark"
+        ],
+        "authors": "**Authors:** **Junjie Wu*** et al.",
+        "links": [],
+        "image": "/pub-livesearchvqa.svg",
         "video": ""
       }
     ]
@@ -140,6 +162,17 @@
   "work": {
     "items": [
       {
+        "company": "Witmani",
+        "href": "",
+        "badges": [],
+        "location": "Shenzhen, China",
+        "title": "Algorithm Researcher",
+        "logoUrl": "",
+        "start": "Aug. 2026",
+        "end": "Present",
+        "description": "Building multi-agent idea-to-script and evaluation-and-revision harnesses for overseas motion-comic short dramas, and developing data, evaluation, and generation pipelines for real-time emotional avatars."
+      },
+      {
         "company": "The Hong Kong University of Science and Technology (Guangzhou)",
         "href": "https://www.hkust-gz.edu.cn/",
         "badges": [],
@@ -148,7 +181,7 @@
         "logoUrl": "/icon/hkust-gz.png",
         "start": "Apr. 2026",
         "end": "Jul. 2026",
-        "description": "Advised by Prof. Yongqi Zhang. Worked on reliable multimodal reasoning and agentic thinking-with-images: proposed VIGIL, a causal visual-evidence grounding framework for attributing MLLM hallucination and enabling reliable multimodal QA, and built a closed-loop data generation, SFT, and evaluation pipeline for the Huawei TIR-Bench agentic thinking-with-images challenge."
+        "description": "Advised by Prof. Yongqi Zhang. Developed VIGIL to measure causal dependence on task-relevant visual evidence, and LiveSearchVQA to certify search necessity and evidence sufficiency for multimodal web-search agents; also built a closed-loop data-generation and full-parameter SFT pipeline for the Huawei TIR-Bench challenge."
       },
       {
         "company": "Tianjin University (TJU)",
@@ -180,7 +213,7 @@
         "title": "Algorithm Researcher",
         "logoUrl": "",
         "start": "May 2024",
-        "end": "Present",
+        "end": "Jul. 2026",
         "description": "Built domain-specific multimodal models from scratch for the Yarnpal and Calo apps, covering dual-source data platform construction, three-stage training (domain knowledge injection, SFT, and GRPO), LLM-as-Judge evaluation frameworks, and single-GPU vLLM deployment; also developed multimodal RAG and agent pipelines and plant foundation models."
       }
     ]

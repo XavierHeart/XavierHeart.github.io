@@ -2,6 +2,11 @@
   "news": {
     "items": [
       {
+        "date": "2026.08",
+        "title": "VIGIL 与 LiveSearchVQA 正在准备投稿 ICLR 2027",
+        "content": "VIGIL 研究多模态问答对因果视觉证据的依赖，LiveSearchVQA 则为多模态 Web 搜索智能体认证搜索必要性与证据充分性。"
+      },
+      {
         "date": "2026.04",
         "title": "加入香港科技大学（广州）担任远程科研助理",
         "content": "与 Yongqi Zhang 教授合作，研究可靠多模态推理与 agentic 图像思维（thinking-with-images）。"
@@ -101,18 +106,35 @@
         "video": ""
       },
       {
-        "title": "VIGIL: Causal Visual Evidence for Reliable Multimodal QA",
+        "title": "VIGIL: Causal Visual Evidence for Multimodal Question Answering",
         "href": "",
-        "dates": "撰写中，2026",
+        "dates": "计划投稿 ICLR 2027",
         "active": true,
-        "description": "基于结构因果模型与反事实干预的因果视觉证据框架，通过证据充分性门控实现可靠的多模态问答。论文撰写中，arXiv 预印本即将发布。",
+        "description": "针对证据移除、定向替换与上下文编辑定义操作匹配的估计量，并在统一的行为端点下检验激活层定位能否迁移到参数适配。",
         "technologies": [
           "MLLM",
-          "幻觉"
+          "因果干预",
+          "视觉证据"
         ],
         "authors": "**作者：** **Junjie Wu*** 等",
         "links": [],
-        "image": "",
+        "image": "/pub-vigil.svg",
+        "video": ""
+      },
+      {
+        "title": "LiveSearchVQA: Certifying Search Necessity for Web-Search Agents",
+        "href": "",
+        "dates": "计划投稿 ICLR 2027",
+        "active": true,
+        "description": "基于 48 小时内带图新闻按需构建的视觉问答评测。每个样本认证视觉定位、经验搜索必要性和证据充分性，并通过闭卷、联网搜索与 Oracle 三条件协议归因检索缺失、干扰和证据利用失败。",
+        "technologies": [
+          "Web 搜索智能体",
+          "视觉问答",
+          "Benchmark"
+        ],
+        "authors": "**作者：** **Junjie Wu*** 等",
+        "links": [],
+        "image": "/pub-livesearchvqa.svg",
         "video": ""
       }
     ]
@@ -140,6 +162,17 @@
   "work": {
     "items": [
       {
+        "company": "Witmani",
+        "href": "",
+        "badges": [],
+        "location": "中国深圳",
+        "title": "算法研究员",
+        "logoUrl": "",
+        "start": "2026.08",
+        "end": "至今",
+        "description": "面向海外动态漫短剧搭建多 Agent 创意到剧本及评测修订 Harness，并研发实时情感虚拟人的视频数据、评测与生成管线。"
+      },
+      {
         "company": "香港科技大学（广州）",
         "href": "https://www.hkust-gz.edu.cn/",
         "badges": [],
@@ -148,7 +181,7 @@
         "logoUrl": "/icon/hkust-gz.png",
         "start": "2026.04",
         "end": "2026.07",
-        "description": "导师为 Yongqi Zhang 教授。研究可靠多模态推理与 agentic 图像思维：提出因果视觉证据框架 VIGIL，用于归因 MLLM 幻觉并实现可靠多模态问答；并为华为 TIR-Bench agentic 图像思维评测构建数据生成、SFT 与评估的闭环管线。"
+        "description": "导师为 Yongqi Zhang 教授。完成 VIGIL，用于测量多模态问答对任务相关视觉证据的因果依赖；完成 LiveSearchVQA，用于认证多模态 Web 搜索智能体的搜索必要性与证据充分性；并为华为 TIR-Bench 构建数据生成与全参数 SFT 闭环管线。"
       },
       {
         "company": "天津大学（TJU）",
@@ -180,7 +213,7 @@
         "title": "算法研究员",
         "logoUrl": "",
         "start": "2024.05",
-        "end": "至今",
+        "end": "2026.07",
         "description": "为 Yarnpal 与 Calo 两款 App 从 0 到 1 研发垂类多模态模型，覆盖双源数据平台建设、三阶段训练（领域知识注入、SFT、GRPO）、LLM-as-Judge 评估框架与单卡 vLLM 部署；同时负责多模态 RAG 与 Agent 管线以及植物基础模型建设。"
       }
     ]
