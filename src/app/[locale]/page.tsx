@@ -205,12 +205,7 @@ export default async function Page(props: {
       {/* Projects Section */}
       {projectsItems && projectsItems.length > 0 && (
         <section id="projects">
-          <div className="w-full space-y-6 py-10">
-            <div className="flex items-center justify-center text-center">
-              <div className="bg-foreground text-background inline-block rounded-lg px-3 py-1 text-sm">
-                {t("sections.selectedProjects")}
-              </div>
-            </div>
+          <div className="w-full py-10">
             <ProjectsSection
               projects={projectsItems.map((project) => ({
                 ...project,
