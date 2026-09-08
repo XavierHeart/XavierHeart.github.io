@@ -13,3 +13,24 @@ await cp(defaultLocaleDir, outDir, {
 });
 
 await copyFile(join(outDir, "index.html"), join(outDir, "404.html"));
+
+// Keep existing Chinese bookmarks working without publishing a Chinese version.
+for (const path of ["", "blog", "privacy-policy", "terms-of-service"]) {
+  const destination = path ? `/${path}/` : "/";
+  const legacyDir = join(outDir, "zh", path);
+  await mkdir(legacyDir, { recursive: true });
+  await writeFile(
+    join(legacyDir, "index.html"),
+    `<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0;url=${destination}">
+  <title>Redirecting</title>
+</head>
+<body><a href="${destination}">Continue to the English site</a></body>
+</html>
+`,
+  );
+}

@@ -25,7 +25,7 @@ The development server starts at `http://localhost:3000`.
 npm run build
 ```
 
-The build command exports a static site to `out/`.
+The build command exports an English-only static site to `out/`. Legacy Chinese page URLs redirect to their English equivalents.
 
 ## GitHub Pages Deployment
 
@@ -41,7 +41,7 @@ The workflow uploads the generated `out/` directory to GitHub Pages. The default
 
 ## Project Structure
 
-- `src/i18n/messages/`: bilingual profile, publication, and section content
+- `src/i18n/messages/`: English profile, publication, and section content
 - `src/app/[locale]/`: localized page routes and layout
 - `src/data/site.ts`: global site metadata
 - `public/`: static assets, including avatar and resume PDF
